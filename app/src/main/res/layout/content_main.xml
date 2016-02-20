@@ -16,4 +16,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="@string/titleString"
+        android:textColor="#e41717"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
